@@ -1,25 +1,11 @@
+
 <?php
 
 print "Qual a quantidade em metros a ser convertidos?";
 
 $quantidade_metros = (int)fgets (STDIN);
 
-$quantidade_cm = $quantidade_metros * 100;
-<?php
+$quantidade_mm = $quantidade_metros * 1000;
 
-print "Qual a quantidade em metros a ser convertidos?";
+print "A quantidade de $quantidade_metros foi convertida para $quantidade_mm";
 
-$quantidade_metros = (int)fgets (STDIN);
-
-$quantidade_cm = $quantidade_metros * 100;
-
-print "A quantidade de $quantidade_metros foi convertida para $quantidade_cm";
-print "A quantidade de $quantidade_metros foi convertida para $quantidade_cm";<?php
-
-print "Qual a quantidade em metros a ser convertidos?";
-
-$quantidade_metros = (int)fgets (STDIN);
-
-$quantidade_cm = $quantidade_metros * 100;
-
-print "A quantidade de $quantidade_metros foi convertida para $quantidade_cm";
